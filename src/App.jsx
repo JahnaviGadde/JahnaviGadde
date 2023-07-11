@@ -8,9 +8,9 @@ function App() {
         <div className = "App" >
         <div className = "child" >
          <CollapsibleExample/>
-         <BrowserRouter>
+         {/* <BrowserRouter>
          <Route exact path='/' render= {<Home/>} />
-        </BrowserRouter>
+        </BrowserRouter> */}
         </div>
         </div >
        
