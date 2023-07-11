@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/JahnaviGadde/JahnaviGadde/static/css/main.97d1610a.css",
+    "main.js": "/JahnaviGadde/JahnaviGadde/static/js/main.894af940.js",
+    "static/js/787.1ed0c42c.chunk.js": "/JahnaviGadde/JahnaviGadde/static/js/787.1ed0c42c.chunk.js",
+    "static/media/vector.png": "/JahnaviGadde/JahnaviGadde/static/media/vector.0fad3381d349bcd57642.png",
+    "index.html": "/JahnaviGadde/JahnaviGadde/index.html",
+    "main.97d1610a.css.map": "/JahnaviGadde/JahnaviGadde/static/css/main.97d1610a.css.map",
+    "main.894af940.js.map": "/JahnaviGadde/JahnaviGadde/static/js/main.894af940.js.map",
+    "787.1ed0c42c.chunk.js.map": "/JahnaviGadde/JahnaviGadde/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97d1610a.css",
+    "static/js/main.894af940.js"
+  ]
+}
