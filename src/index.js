@@ -4,13 +4,14 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import './style.css';
+import Home from './page/Home';
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( <
     React.StrictMode  basename={process.env.APP_URL}>
     <BrowserRouter>
-    <App / >
+    <Route exact path='/' render= {<Home/>} />
     </BrowserRouter>
     </React.StrictMode>
 );
