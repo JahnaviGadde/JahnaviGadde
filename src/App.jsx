@@ -7,8 +7,8 @@ function App() {
     return (
         <div className = "App" >
         <div className = "child" >
-         <BrowserRouter>
          <CollapsibleExample/>
+         <BrowserRouter>
          <Route exact path='/' render= {<Home/>} />
         </BrowserRouter>
         </div>
