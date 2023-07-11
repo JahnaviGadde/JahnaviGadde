@@ -1,297 +1,316 @@
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
-    .App {
-        height: auto;
-        width: 100%;
-        background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .child {
-        background-color: rgba(255, 255, 255, 0.06);
-        height: auto;
-        width: 96vw;
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        border-radius: 8px;
-        border: 1px solid rgba(255, 255, 255, 0.55);
-    }
-    
-    .me-auto {
-        margin: 0 auto;
-        font-family: 'Monsterrat', sans-serif;
-    }
-    
-    .nav-link {
-        font-family: 'Monsterrat', sans-serif;
-    }
-    
-    Nav button , .github {
-        border: none;
-        background-color: #00B093;
-        color: black;
-        padding: 8px 12px;
-        font-size: 14px;
-        font-weight: 600;
-        border-radius: 10px;
-        font-family: 'Monsterrat', sans-serif;
-    }
-    
-    .navbar-brand {
-        font-family: 'Asap', sans-serif;
-        color: #00B093;
-    }
-    
-    .navbar {
-        border: none;
-        margin: 3vm;
-    }
-    
-    .color-nav {
-        background-color: rgb(15, 15, 15);
-        border-radius: 8px;
-    }
-    
-    .navbar-brand:hover {
-        color: #00B093;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+.App {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .Home{
-        height: 90vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.child {
+    background-color: rgba(255, 255, 255, 0.06);
+    height: auto;
+    width: 96vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+}
 
-    .Home img{
-        height: 60vh;
-        margin-left: 15vw;
-    }
-    
+.me-auto {
+    margin: 0 auto;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Monsterrat', sans-serif;
+}
+
+Nav button , .github {
+    border: none;
+    background-color: #00B093;
+    color: black;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Asap', sans-serif;
+    color: #00B093;
+}
+
+.navbar {
+    border: none;
+    margin: 3vm;
+}
+
+.color-nav {
+    background-color: rgb(15, 15, 15);
+    border-radius: 8px;
+}
+
+.navbar-brand:hover {
+    color: #00B093;
+}
+
+.Home{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home img{
+    height: 60vh;
+    margin-left: 15vw;
+}
+
+.Intro-text {
+    position: absolute;
+    left: 5vw;
+    display: flex;
+}
+.intro1{
+    flex: 6;
+}
+.Intro-text h1 {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Asap', sans-serif;
+}
+.socialmedia{
+    color: #00B093;
+}
+.icon{
+    margin: 10px;
+}
+.Intro-text h4 {
+    font-size: 32px;
+    color: #00B093;
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.intro-text {
+    width: 50vw;
+}
+
+.intro-text h3 , .Works h3 {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+
+.intro-text p,
+.Education p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.intro-text h4{
+    color: #00B093;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+
+.About {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About ul {
+     color: rgba(255, 255, 255, 0.75); 
+}
+
+.Works{
+    width:80%;
+    margin-top:70px;
+    margin-bottom:70px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.workswrapper{
+    display: flex;
+    display: grid;
+    gap: 0;
+}
+
+.cards{
+   height: 350px;
+   width: 300px;
+   background-color: #1a1a1a;
+   color: rgba(255, 255, 255, 0.75);
+   border: 0.5px solid rgba(255, 255, 255, 0.55);
+   margin: 20px;
+}
+
+@media (min-width: 800px) {
+    .workswrapper { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+
+.github a{
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.github:hover{
+    background-color: #00B093;
+} 
+
+.Contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contact .heading {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Asap', sans-serif;
+    margin: 20px
+}
+
+.Contact input {
+    background-color: #1e1e1e;
+    width: 500px;
+    height: 50px;
+    color: white;
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.Contact textarea {
+    background-color: #1e1e1e;
+    width: 500px;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.Contact .container {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    align-items: center;
+}
+
+.Contact button {
+    border: none;
+    background-color: #00B093;
+    color: black;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin: 20px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+@media only screen and (max-width: 1050px) {
     .Intro-text {
-        position: absolute;
-        left: 5vw;
-        display: flex;
+        margin: 12vh 3vw;
     }
-    .intro1{
-        flex: 6;
+    
+    .Home img{
+        height: 50vh;
+        margin-left: 12vw;
     }
+   
     .Intro-text h1 {
-        font-size: 80px;
-        color: rgb(255, 255, 255);
-        font-family: 'Asap', sans-serif;
-    }
-    .socialmedia{
-        color: #00B093;
-    }
-    .icon{
-        margin: 10px;
+        font-size: 60px;
     }
     .Intro-text h4 {
-        font-size: 32px;
-        color: #00B093;
-        font-family: 'Asap', sans-serif;
+        font-size: 24px;
     }
-    
-    body {
-        background-color: #1e1e1e;
+    .intro-text,
+    .skillset,
+    .Education {
+        width: 75%;
     }
-    
-    .intro-text {
-        width: 50vw;
+    .child {
+        margin-top: 2vh;
+        margin-top: 2vh;
     }
-    
-    .intro-text h3 , .Works h3 {
-        color: rgba(255, 255, 255, 0.9);
-        font-weight: bold;
-        font-family: 'Asap', sans-serif;
+    .Contact input,
+    .Contact textarea {
+        width: 80%;
+        margin: 5px;
     }
-    
-    .intro-text p,
-    .Education p {
-        color: rgba(255, 255, 255, 0.75);
+    .Contact button {
+        margin: 5px;
     }
-    
-    .intro-text h4{
-        color: #00B093;
-        font-weight: bold;
-        font-family: 'Asap', sans-serif;
-    }
-    
-    .About {
-        height: 75vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .About ul {
-         color: rgba(255, 255, 255, 0.75); 
-    }
-  
-    .Works{
-        width:80%;
-        margin-top:70px;
-        margin-bottom:70px;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
+}
 
-    .workswrapper{
+@media screen and (max-width : 900px){
+
+    .Intro-text{
+        display: block;
+    }
+    
+    .Home img{
+        height: 40vh;
+        margin:auto;
+        margin-top: 50px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 430px) {
+   
+    
+    .Intro-text h4 {
+        font-size: 20px;
+    }
+    .intro-text,
+    .skillset,
+    .Education {
+        width: 90%;
+    }
+    .child {
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .Contact input,
+    .Contact textarea {
+        width: 95%;
+        margin: 5px;
         display: flex;
-        display: grid;
-        gap: 0;
+        align-items: center;
     }
 
     .cards{
-       height: 350px;
-       width: 300px;
-       background-color: #1a1a1a;
-       color: rgba(255, 255, 255, 0.75);
-       border: 0.5px solid rgba(255, 255, 255, 0.55);
-       min-width: 320px;
-       min-height: 350px;
-       margin: 20px;
+        width: 87vw;
+        padding: 0;
+        height: auto;
     }
-
-    @media (min-width: 800px) {
-        .workswrapper { grid-template-columns: repeat(2, 1fr); }
-      }
-      
-
-    .github a{
-        color: #1e1e1e;
-        text-decoration: none;
+    .Works h3{
+        margin-left: 35px;
     }
+}
 
-    .github:hover{
-        background-color: #00B093;
-    } 
-    
-    .Contact{
+@media only screen and (max-height: 750px){
+    .Works{
+        height: auto;
+    }
+    .About{
         height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
-    .Contact .heading {
-        color: rgba(255, 255, 255, 0.8);
-        font-family: 'Asap', sans-serif;
-        margin: 20px
+    .Home{
+        height: 100vh;
     }
-    
-    .Contact input {
-        background-color: #1e1e1e;
-        width: 500px;
-        height: 50px;
-        color: white;
-        margin: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.55);
-        padding: 10px;
-        border-radius: 4px;
-    }
-    
-    .Contact textarea {
-        background-color: #1e1e1e;
-        width: 500px;
-        color: white;
-        margin: 20px;
-        padding: 10px;
-        border-radius: 4px;
-    }
-    
-    .Contact .container {
-        margin-top: 8vh;
-        margin-bottom: 8vh;
-        align-items: center;
-    }
-    
-    .Contact button {
-        border: none;
-        background-color: #00B093;
-        color: black;
-        padding: 8px 12px;
-        font-size: 14px;
-        font-weight: 600;
-        border-radius: 7px;
-        margin: 20px;
-        font-family: 'Monsterrat', sans-serif;
-    }
-    
-    @media only screen and (max-width: 1050px) {
-        .Intro-text {
-            margin: 12vh 3vw;
-        }
-        
-        .Home img{
-            height: 50vh;
-            margin-left: 12vw;
-        }
-       
-        .Intro-text h1 {
-            font-size: 60px;
-        }
-        .Intro-text h4 {
-            font-size: 24px;
-        }
-        .intro-text,
-        .skillset,
-        .Education {
-            width: 75%;
-        }
-        .child {
-            margin-top: 2vh;
-            margin-top: 2vh;
-        }
-        .Contact input,
-        .Contact textarea {
-            width: 80%;
-            margin: 5px;
-        }
-        .Contact button {
-            margin: 5px;
-        }
-    }
-    
-    @media screen and (max-width : 900px){
-
-        .Intro-text{
-            display: block;
-        }
-        
-        .Home img{
-            height: 40vh;
-            margin:auto;
-            margin-top: 50px;
-        }
-        
-    }
-
-
-    @media only screen and (max-width: 430px) {
-       
-        
-        .Intro-text h4 {
-            font-size: 20px;
-        }
-        .intro-text,
-        .skillset,
-        .Education {
-            width: 90%;
-        }
-        .child {
-            margin-top: 1vh;
-            margin-bottom: 1vh;
-        }
-        .Contact input,
-        .Contact textarea {
-            width: 95%;
-            margin: 5px;
-            display: flex;
-            align-items: center;
-        }
-    }
+}
