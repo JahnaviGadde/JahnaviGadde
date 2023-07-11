@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/JahnaviGadde/static/css/main.97d1610a.css",
-    "main.js": "/JahnaviGadde/static/js/main.fd11e6f8.js",
-    "static/js/787.1ed0c42c.chunk.js": "/JahnaviGadde/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "/JahnaviGadde/static/js/main.8eab4dcc.js",
     "static/media/vector.png": "/JahnaviGadde/static/media/vector.0fad3381d349bcd57642.png",
     "index.html": "/JahnaviGadde/index.html",
     "main.97d1610a.css.map": "/JahnaviGadde/static/css/main.97d1610a.css.map",
-    "main.fd11e6f8.js.map": "/JahnaviGadde/static/js/main.fd11e6f8.js.map",
-    "787.1ed0c42c.chunk.js.map": "/JahnaviGadde/static/js/787.1ed0c42c.chunk.js.map"
+    "main.8eab4dcc.js.map": "/JahnaviGadde/static/js/main.8eab4dcc.js.map"
   },
   "entrypoints": [
     "static/css/main.97d1610a.css",
-    "static/js/main.fd11e6f8.js"
+    "static/js/main.8eab4dcc.js"
   ]
 }
