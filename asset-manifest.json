@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JahnaviGadde/JahnaviGadde/static/css/main.97d1610a.css",
-    "main.js": "/JahnaviGadde/JahnaviGadde/static/js/main.e6035a96.js",
-    "static/js/787.1ed0c42c.chunk.js": "/JahnaviGadde/JahnaviGadde/static/js/787.1ed0c42c.chunk.js",
-    "static/media/vector.png": "/JahnaviGadde/JahnaviGadde/static/media/vector.0fad3381d349bcd57642.png",
-    "index.html": "/JahnaviGadde/JahnaviGadde/index.html",
-    "main.97d1610a.css.map": "/JahnaviGadde/JahnaviGadde/static/css/main.97d1610a.css.map",
-    "main.e6035a96.js.map": "/JahnaviGadde/JahnaviGadde/static/js/main.e6035a96.js.map",
-    "787.1ed0c42c.chunk.js.map": "/JahnaviGadde/JahnaviGadde/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/JahnaviGadde/static/css/main.97d1610a.css",
+    "main.js": "/JahnaviGadde/static/js/main.563995e3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/JahnaviGadde/static/js/787.1ed0c42c.chunk.js",
+    "static/media/vector.png": "/JahnaviGadde/static/media/vector.0fad3381d349bcd57642.png",
+    "index.html": "/JahnaviGadde/index.html",
+    "main.97d1610a.css.map": "/JahnaviGadde/static/css/main.97d1610a.css.map",
+    "main.563995e3.js.map": "/JahnaviGadde/static/js/main.563995e3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/JahnaviGadde/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97d1610a.css",
-    "static/js/main.e6035a96.js"
+    "static/js/main.563995e3.js"
   ]
 }
