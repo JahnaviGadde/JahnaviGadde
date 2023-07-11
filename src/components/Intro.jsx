@@ -2,7 +2,6 @@ import img from "../images/vector.png"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Link } from "react-router-dom";
 const Intro = () => {
     return (
         <div className="Home" id= "intro"> 
